@@ -1,0 +1,6 @@
+api-service/target
+api-service/.idea
+eureka-server/target
+eureka-server/.idea
+zuul-server/target
+zuul-server/.idea
