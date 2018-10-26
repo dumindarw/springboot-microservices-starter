@@ -4,14 +4,14 @@
 	- EUREKA for Load balancing
 	- KEYCLOACK for Identity and Access Management
 
-ZUUL Server (http://localhost:8762)
-	startup - mvn install && mvn spring-boot:run
-EUREKA Server (http://localhost:8761) 
-	startup - mvn install && mvn spring-boot:run
-KEYCLOACK Server (http://localhost:8180)
- startup - .\standalone.bat -Djboss.socket.binding.port-offset=100
-API (http://localhost:8080)
-	startup - mvn install && mvn spring-boot:run
+- ZUUL Server (http://localhost:8762)
+	-- startup - mvn install && mvn spring-boot:run
+- EUREKA Server (http://localhost:8761) 
+	-- startup - mvn install && mvn spring-boot:run
+- KEYCLOACK Server (http://localhost:8180)
+    -- startup - .\standalone.bat -Djboss.socket.binding.port-offset=100
+- API (http://localhost:8080)
+	-- startup - mvn install && mvn spring-boot:run
 	
 - Upload or create Keyclock realm using zuul-server/config/quickstart-realm.json	
 	
